@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import './theme-variable.scss';
+
+
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  body {
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+    overflow: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .input {
+      @include themify($themes) {
+          background: themed('list');
+          color: themed('listText');
+      }
+    }
+
+  .completed {
+    @include themify($themes) {
+      color: themed('completed');
+     }
+  }
+    
+  .error-msg {
+     color: hsl(0, 80%, 50%);
+     font-weight: bold;
+  }
+
+  .success-msg {
+     color: hsl(120, 70%, 50%);
+  }
+
+  .auth-card {
+      @include themify($themes) {
+        background: themed('list');
+      } 
+      input {
+        @include themify($themes) {
+          background: themed('list');
+          color: themed('listText');
+      }
+      }
+      button:hover {
+        @include themify($themes) {
+          border: 1px solid themed('footerHover');
+        }  
+      }
+  }
+
+  .list-body {
+    @include themify($themes) {
+        background: themed('bodyBackground');
+      }
+  }
+
+.list {
+    @include themify($themes) {
+        background: themed('list');
+    } 
+    max-height: 300px;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+         width: 12px;
+        }
+        
+    &::-webkit-scrollbar-thumb {
+        background: rgb(164,167,192);   
+    }
+}
+
+.footer-color {
+    @include themify($themes) {
+        color: themed('footerColor');
+      } 
+}
+
+.single-item {
+    @include themify($themes) {
+        border-bottom: themed('borderBottom');
+      }  
+}
+
+.list-text {
+    @include themify($themes) {
+        color: themed('listText');
+      }  
+}
+.list-footer-text:hover {
+  @include themify($themes) {
+    color: themed('footerHover');
+  }  
+}
+
+.active-color {
+  color: rgb(84,128,216);
+}
+

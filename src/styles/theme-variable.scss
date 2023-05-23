@@ -1,0 +1,48 @@
+
+$themes: (
+  light: (
+    bodyBackground: hsl(0, 0%, 98%),
+    list: #fff,
+    textColor: #000, 
+    footerColor: rgb(213,213,218),
+    borderBottom:hsl(233, 11%, 84%),
+    listText:rgb(84,82,90),
+    completed:rgb(198,199,204),
+    footerHover:rgb(84,82,90),
+
+    // listFooter:
+  ),
+
+  dark: (
+    bodyBackground: hsl(235, 21%, 11%),
+    list: hsl(235, 24%, 19%),
+    textColor: #eff2f7,
+    footerColor: hsl(235, 19%, 35%),
+    borderBottom: hsl(233, 11%, 84%),
+    listText:rgb(202,205,227),
+    completed:rgb(80,82,105),
+    footerHover: white,
+  ),
+);
+
+@mixin themify($themes) {
+    @each $theme, $map in $themes {
+      .theme-#{$theme} & {
+        $theme-map: () !global;
+        @each $key, $submap in $map {
+          $value: map-get(map-get($themes, $theme), '#{$key}');
+          $theme-map: map-merge(
+            $theme-map,
+              (
+                $key: $value,
+              )
+            ) !global;
+          }
+          @content;
+          $theme-map: null !global;
+        }
+     }
+  }
+  @function themed($key) {
+    @return map-get($theme-map, $key);
+  }
