@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- [Live Site URL](https://todolist-fbapp.netlify.app)
-- [Solution URL](https://github.com/SiR-PENt/todo-list-CRUD-app-with-Firebase)
+- [Live Site URL](https://todo-list-crud-app-firebase.vercel.app/)
+- [Solution URL](https://github.com/TimiBee/todo-list-CRUD-app-with-Firebase)
 
 ## My process
 
