@@ -70,7 +70,7 @@ I looked forward to building more projects with TypeScript and more Firebase fea
 
 ## Author
 
-- Website - [Olasunkanmi Balogun](https://www.kanmibalogun.vercel.app)
+- Website - [Akomolede Busayo Timileyin](https://busayomi.vercel.app/)
 - Frontend Mentor - [@SiR-PENt](https://www.frontendmentor.io/profile/SiR-PENt)
 - Twitter - [@SiR_PENtt](https://www.twitter.com/SiR_PENtt)
 
