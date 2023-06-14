@@ -1,6 +1,6 @@
 # Frontend Mentor - Todo app solution
 
-This is a solution to the [Todo app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Todo app challenge on Frontend Mentor](frontendmentor.io/solutions/todo-app-dYR0IeLwmU). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -71,11 +71,10 @@ I looked forward to building more projects with TypeScript and more Firebase fea
 ## Author
 
 - Website - [Akomolede Busayo Timileyin](https://busayomi.vercel.app/)
-- Frontend Mentor - [@SiR-PENt](https://www.frontendmentor.io/profile/SiR-PENt)
-- Twitter - [@SiR_PENtt](https://www.twitter.com/SiR_PENtt)
+- Frontend Mentor - [@TimiBee](https://www.frontendmentor.io/profile/TimiBee)
+- Twitter - [@Timi_Bee](https://twitter.com/Timi_Bee)
 
 
 ## Acknowledgments
 
-I wanna thank me for putting in the work, for not giving up, bla bla... Yeah, that SnoopDogg video
-
+Myself and all developers
