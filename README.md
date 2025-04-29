@@ -58,12 +58,12 @@ I learnt about Firebase's authentication process here. I also explored Firebase 
 
 ### Continued development
 
-I looked forward to building more projects with TypeScript and more Firebase features, and also improve my web accessibility skills. Next project will be built in a Next.js environment. No pun intended, haha  
+I looked forward to building more projects with TypeScript and more Firebase features, and also improve my web accessibility skills. Next project will be built in a Next.js environment. No pun intended, haha 
 
 
 ### Useful resources
 
-- [TypeScript's Documentation](https://www.typescriptlang.org) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [TypeScript's Documentation](https://www.typescriptlang.org) - This helped me for advanced type inference and. I really liked this pattern and will use it going forward.
 - [Firebase Documentation](https://www.firebase.google.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 - [ChatGPT](https://chat.openai.com) ofcourse!
 
