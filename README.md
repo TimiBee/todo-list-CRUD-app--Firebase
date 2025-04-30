@@ -1,6 +1,6 @@
 # Frontend Mentor - Todo app solution
 
-This is a solution to the [Todo app challenge on Frontend Mentor](frontendmentor.io/solutions/todo-app-dYR0IeLwmU). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Todo app challenge on Frontend Mentor](frontendmentor.io/solutions/todo-app-dYR0IeLwmU). 
 
 ## Table of contents
 
